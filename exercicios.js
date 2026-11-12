@@ -19,10 +19,13 @@ MaiorDois(9,12)
 
 function contador10 () {
     for(let i = 0;i <10; i++){
-            console.log(i)
+        console.log(i)
     } 
+          for(let j= 10; j >0; j--){
+                console.log(j)
+            }
 }
-contador10(10)
+contador10(10,0)
 
 function tabuada(numero) {
     for(let i = 1;i <= 10; i++){
