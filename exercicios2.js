@@ -15,7 +15,7 @@ function ClassIdade(idade) {
 ClassIdade(15)
 
 const nume2 = [12, 2, 4, 5, 8, 34, 64, 99, 0];
-const filtro = nume2.filter(numero => numero > 9);
+const filtro = nume2.filter(numero => numero > 9).length;
 console.log(filtro)
 
 
@@ -40,8 +40,20 @@ function MediaNota() {
 
 console.log(MediaNota())
 
-function somarInfi() {
-    for(let i = 0;i <10; i++){
+function somarInfi(n) {
+    for(let i = 0;i <= n; i++){
         console.log(i)
     } 
 }
+
+somarInfi(15) //Só adicionar o número que você desejar 
+
+function ParesInifi(n) {
+    for(let i = 0;i <= n; i++){
+        if(i % 2 === 0){
+            console.log(i)
+
+        }
+    } 
+}
+ParesInifi(10) //Só adicionar o número que você desejar 
